@@ -1,0 +1,30 @@
+body {
+    background-image: url(cafe-background.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 30px;
+}
+
+.container2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    /* Optional: Add padding for spacing */
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Set height to 100% of viewport height to center vertically */
+}
+.container1 button{
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
